@@ -1,0 +1,8 @@
+Two loops, single variable
+What is the time complexity of this code?
+
+for i = 1 to n
+	for j = 1 to n / 2
+		print(i + j)
+
+Answer: O(N^2)

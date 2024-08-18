@@ -1,0 +1,6 @@
+Nested loops with different variables
+
+for i = 0 to N
+    for j = 0 to M
+        print(i)
+Answer: O(N*M)

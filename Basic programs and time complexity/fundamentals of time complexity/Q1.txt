@@ -1,0 +1,4 @@
+Introduction to time complexity
+
+How do we denote the worst case time complexity of an algorithm?
+Answer: Big O notation

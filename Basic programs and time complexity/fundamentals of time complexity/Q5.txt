@@ -1,0 +1,10 @@
+Finding time complexity - Nested loops
+
+python
+for i = 0 to N
+    for j = 0 to N
+        for k = 0 to N
+            print(i)
+
+What will be the final time complexity of the given algorithm?
+Answer: O(N^3)

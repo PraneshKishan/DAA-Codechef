@@ -1,0 +1,10 @@
+Finding time complexity - O(N)
+
+python:
+for i = 0 to N
+    print(i)
+    print(i * 2)
+
+What will be the final time complexity of the given algorithm?
+
+Answer: O(N)

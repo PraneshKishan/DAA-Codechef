@@ -1,0 +1,11 @@
+Finding time complexity - Rule 2
+
+python:
+for i = 0 to N
+    print(i)
+
+for j = 0 to N
+    print(j)
+
+What will be the final time complexity of the given algorithm?
+Answer: O(N)

@@ -1,0 +1,9 @@
+Time complexity for DSA
+
+sum = 0
+for i = 1 to N
+    sum += i
+print(sum)
+
+Will the above algorithm run within 1 second?
+Answer: Yes

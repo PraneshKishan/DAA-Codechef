@@ -1,0 +1,8 @@
+Two loops, two variables
+What is the time complexity of this code?
+
+for i = 1 to (n / 10)
+	for j = 1 to (2 * m)
+		print(i + j)
+
+Answer: O(n*m)

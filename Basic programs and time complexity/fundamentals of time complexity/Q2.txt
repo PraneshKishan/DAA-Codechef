@@ -1,0 +1,9 @@
+Finding time complexity - Rule 1
+
+python:
+a = 4
+print(a)
+
+What will be the time complexity of the given algorithm?
+
+Answer: O(1)

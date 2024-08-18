@@ -1,0 +1,7 @@
+Time complexity for DSA
+
+Task
+What will the number of operations performed by your algorithm be, 
+if maximum value of N can be 10 ^ 6 and time complexity of the algorithm is O(N)?
+
+Answer: 10^6

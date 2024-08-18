@@ -1,0 +1,14 @@
+Task
+What is the time complexity of this code?
+
+i = 1
+while i <= n:
+    print(i)
+    i *= 2
+
+j = 1
+while j <= n:
+    print(j)
+    j = j + 1
+
+Answer: O(n)

@@ -1,0 +1,13 @@
+Time complexity for DSA
+Let’s look at another algorithm, 
+which calculates the sum of all the pairs (i, j) where 1 <= i <= N and 1 <= j <= N.
+
+sum = 0
+for i = 1 to N
+     for j = 1 to N
+          sum += i
+          sum += j
+
+Can this algorithm run within a second if the constraints on N are: 1≤N≤10^5?
+
+Answer: No

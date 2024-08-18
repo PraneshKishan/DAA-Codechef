@@ -1,0 +1,11 @@
+Square root N time complexity
+Task
+What is the complexity of this algorithm?
+
+for i = 0 to n:
+   j = 0
+   while j * j <= n:
+      print(i + j)
+      j = j + 1
+
+Answer: 

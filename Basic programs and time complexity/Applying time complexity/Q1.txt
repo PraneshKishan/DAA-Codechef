@@ -1,0 +1,13 @@
+Two loops
+
+for i = 0 to N
+    print(i)
+
+for j = 0 to M
+    print(j)
+
+for i = 0 to N
+    print(i)
+
+What will be the final time complexity of the given algorithm?
+Answer: O(N+M)

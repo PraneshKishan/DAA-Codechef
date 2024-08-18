@@ -1,0 +1,11 @@
+Log N time complexity
+
+Task
+What will be the time complexity of this algorithm?
+
+i = 1
+while i <= n:
+    print(i)
+    i *= 3
+
+Answer: O(log(n))

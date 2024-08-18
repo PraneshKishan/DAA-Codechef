@@ -1,40 +1,27 @@
 # Count positive and non-zero elements
 
-# Given N space separated integers and an integer k, please perform the following operations
-
-# Store the integers in the array A
-# Count all the items of the array A strictly greater than 0 and store it as the variable pos
-# Count all the items of the array A strictly lesser than 0 and store it as the variable neg
-# Count all items of the 
-# A which are divisible by k and store it as the variable divk
-
-# Input Format
-# The first line of input will contain a single integer T, denoting the number of test cases.
-# Each test case consists of a two lines of input
-# The 1 st line of input contains the integers N and k
-# 2 nd line of input contains 
-# N space separated integers - denoting the array A
-
-
-t = int(input())
+t = int(input())#2
 for i in range(t):
-    N, k = map(int, input().split())
-    A = list(map(int, input().split()))
+    N, k = map(int, input().split())# N = 7 K=2
+    A = list(map(int, input().split()))# A = [-5, -3, -1, 0, 1, 3, 5]
     
-
+    #Declare and initialise variables - pos, neg and divk
+    #Note that we are reinitializing the variables to be 0 for each test case.
     pos = 0
     neg = 0
     divk = 0
     
     i = 0
-    while i<N:
+    #Loop through all elements of the array
+    while i<len(A):
+        #Count the negative elements of the array
         if A[i] <  0:
             neg = neg + 1
-
+        #Count the positive elements of the array
         elif A[i] >  0:
             pos = pos + 1
-            
-        if A[i] == 0:
+        #Count if the given element is divisible by k
+        if A[i]%k == 0:
             divk = divk + 1
         i = i + 1
     
